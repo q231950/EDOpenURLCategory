@@ -1,0 +1,14 @@
+PODS:
+  - EDOpenURLCategory (0.1.0)
+
+DEPENDENCIES:
+  - EDOpenURLCategory (from `../`)
+
+EXTERNAL SOURCES:
+  EDOpenURLCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EDOpenURLCategory: 32f5680e6490de501bcfda391824c788669d87d2
+
+COCOAPODS: 0.34.2
