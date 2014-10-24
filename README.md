@@ -1,4 +1,4 @@
 EDOpenURLCategory
 =================
 
-Objective-C category on NSObject to open a URL in iOS
+This Objective-C category on NSObject mimes the **openURL:completionHandler:** method of _NSExtensionContext_.
