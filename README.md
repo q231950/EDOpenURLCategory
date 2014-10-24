@@ -1,4 +1,4 @@
 EDOpenURLCategory
 =================
 
-This Objective-C category on NSObject mimes the **openURL:completionHandler:** method of _NSExtensionContext_.
+This Objective-C category on NSObject mimics the **openURL:completionHandler:** method of _NSExtensionContext_.
