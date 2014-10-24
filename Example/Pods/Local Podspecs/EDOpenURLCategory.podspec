@@ -10,21 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "EDOpenURLCategory"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EDOpenURLCategory."
+  s.summary          = "Category on NSObject to open apps by url"
   s.description      = <<-DESC
-                       An optional longer description of EDOpenURLCategory
+                       This Objective-C category on NSObject mimics the openURL:completionHandler: method of NSExtensionContext.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EDOpenURLCategory"
+  s.homepage         = "https://github.com/q231950/EDOpenURLCategory"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Martin Kim Dung-Pham" => "kim@elbedev.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EDOpenURLCategory.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/q231950/EDOpenURLCategory.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/q231950'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '5.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
@@ -32,7 +30,7 @@ Pod::Spec.new do |s|
     'EDOpenURLCategory' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
