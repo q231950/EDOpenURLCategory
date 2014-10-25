@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "EDOpenURLCategory.xctest"
-               BlueprintName = "EDOpenURLCategory"
+               BlueprintIdentifier = "3BCF0D6319FACEE500B722EC"
+               BuildableName = "EDOpenURLCategoryExampleApp.app"
+               BlueprintName = "EDOpenURLCategoryExampleApp"
+               ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BCF0D7B19FACEE500B722EC"
+               BuildableName = "EDOpenURLCategoryExampleAppTests.xctest"
+               BlueprintName = "EDOpenURLCategoryExampleAppTests"
                ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "EDOpenURLCategory.xctest"
-               BlueprintName = "EDOpenURLCategory"
+               BlueprintIdentifier = "3BCF0D7B19FACEE500B722EC"
+               BuildableName = "EDOpenURLCategoryExampleAppTests.xctest"
+               BlueprintName = "EDOpenURLCategoryExampleAppTests"
                ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "EDOpenURLCategory.xctest"
-            BlueprintName = "EDOpenURLCategory"
+            BlueprintIdentifier = "3BCF0D6319FACEE500B722EC"
+            BuildableName = "EDOpenURLCategoryExampleApp.app"
+            BlueprintName = "EDOpenURLCategoryExampleApp"
             ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +75,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "EDOpenURLCategory.xctest"
-            BlueprintName = "EDOpenURLCategory"
+            BlueprintIdentifier = "3BCF0D6319FACEE500B722EC"
+            BuildableName = "EDOpenURLCategoryExampleApp.app"
+            BlueprintName = "EDOpenURLCategoryExampleApp"
             ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +93,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F5AD195388D20070C39A"
-            BuildableName = "EDOpenURLCategory.xctest"
-            BlueprintName = "EDOpenURLCategory"
+            BlueprintIdentifier = "3BCF0D6319FACEE500B722EC"
+            BuildableName = "EDOpenURLCategoryExampleApp.app"
+            BlueprintName = "EDOpenURLCategoryExampleApp"
             ReferencedContainer = "container:EDOpenURLCategory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
