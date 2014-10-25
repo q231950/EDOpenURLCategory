@@ -1,6 +1,6 @@
 # EDOpenURLCategory
 
-[![CI Status](http://img.shields.io/travis/Martin Kim Dung-Pham/EDOpenURLCategory.svg?style=flat)](https://travis-ci.org/Martin Kim Dung-Pham/EDOpenURLCategory)
+[![CI Status](https://travis-ci.org/q231950/EDOpenURLCategory.svg?branch=master)](https://travis-ci.org/q231950/EDOpenURLCategory)
 [![Version](https://img.shields.io/cocoapods/v/EDOpenURLCategory.svg?style=flat)](http://cocoadocs.org/docsets/EDOpenURLCategory)
 [![License](https://img.shields.io/cocoapods/l/EDOpenURLCategory.svg?style=flat)](http://cocoadocs.org/docsets/EDOpenURLCategory)
 [![Platform](https://img.shields.io/cocoapods/p/EDOpenURLCategory.svg?style=flat)](http://cocoadocs.org/docsets/EDOpenURLCategory)
