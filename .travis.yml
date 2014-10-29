@@ -4,4 +4,4 @@ before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
     - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
     - cd Example && pod install
-script: "xctool test -workspace EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO"
+script: "xctool clean test -workspace EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO"
