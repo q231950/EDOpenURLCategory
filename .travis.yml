@@ -1,4 +1,2 @@
 language: objective-c
-before_install:
-    - cd Example && pod install
-script: "xcodebuild -workspace EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' clean test"
+script: "xcodebuild -workspace Example/EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' clean test"
