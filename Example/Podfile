@@ -1,6 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-
 target 'EDOpenURLCategoryExampleApp', :exclusive => true do
   pod "EDOpenURLCategory", :path => "../"
 

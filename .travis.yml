@@ -1,2 +1,7 @@
 language: objective-c
-script: "xcodebuild -workspace Example/EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' clean test"
+before_install:
+    - export LANG=en_US.UTF-8
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - cd Example && pod install
+script: "xcodebuild -workspace EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.1' clean test"
