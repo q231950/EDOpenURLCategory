@@ -14,9 +14,7 @@
 		3BCF0D7419FACEE500B722EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF0D7319FACEE500B722EC /* Images.xcassets */; };
 		3BCF0D7719FACEE500B722EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF0D7519FACEE500B722EC /* LaunchScreen.xib */; };
 		3BCF0D8319FACEE500B722EC /* EDOpenURLCategoryExampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF0D8219FACEE500B722EC /* EDOpenURLCategoryExampleAppTests.m */; };
-		3BCF0D8B19FACF2500B722EC /* libPods-EDOpenURLCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF0D8A19FACF2500B722EC /* libPods-EDOpenURLCategory.a */; };
 		3BCF0D8F19FAD4E000B722EC /* EDOpenURLCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF0D8C19FAD4A000B722EC /* EDOpenURLCategoryTests.m */; };
-		57B3F1531634EDE64699A150 /* libPods-EDOpenURLCategoryExampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA6D1CC83FEA5891F940A2C /* libPods-EDOpenURLCategoryExampleApp.a */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -75,8 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCF0D8B19FACF2500B722EC /* libPods-EDOpenURLCategory.a in Frameworks */,
-				57B3F1531634EDE64699A150 /* libPods-EDOpenURLCategoryExampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +321,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* EDOpenURLCategory */,
 				3BCF0D6319FACEE500B722EC /* EDOpenURLCategoryExampleApp */,
+				6003F5AD195388D20070C39A /* EDOpenURLCategory */,
 				3BCF0D7B19FACEE500B722EC /* EDOpenURLCategoryExampleAppTests */,
 			);
 		};
