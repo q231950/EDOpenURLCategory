@@ -3,5 +3,8 @@ before_install:
     - export LANG=en_US.UTF-8
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
     - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - brew update
+    - brew unlink xctool
+    - brew install xctool
     - cd Example && pod install
 script: "xctool clean test -workspace EDOpenURLCategory.xcworkspace -scheme EDOpenURLCategoryExampleApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO"
